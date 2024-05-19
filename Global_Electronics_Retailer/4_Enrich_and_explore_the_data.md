@@ -26,7 +26,7 @@ Do all product categories show a similar trend?
 
 If we go deeper and add months and visualize it with line chart we can see that till the beginning of 2020 the trend was the same and after that period it dropped and never increased:
 
-![](/Global_Electronics_Retailer/visualizing_trends.png)
+![](/Global_Electronics_Retailer/screenshots/visualizing_trends.png)
 
 And seems that the trend is the same for all product categories. 
 
@@ -34,11 +34,11 @@ And seems that the trend is the same for all product categories.
 
 In order to calculate Total Revenue (USD), based on Quantity and Unit Price (USD) we created new measure:
 
-![](/Global_Electronics_Retailer/adding_total_revenue_measure.png)
+![](/Global_Electronics_Retailer/screenshots/adding_total_revenue_measure.png)
 
 Which stores generate the most revenue?
 
-![](/Global_Electronics_Retailer/store_revenue.png)
+![](/Global_Electronics_Retailer/screenshots/store_revenue.png)
 
 From this pivot table we can see that Store 0 generated the most revenue, which is online store. 
 
@@ -46,23 +46,23 @@ Create another version to calculate revenue in local currency.
 
 To convert USD to local currencies depending where the transactions took place, we needed to create Total Revenue for local currency. To do that we created new measure:
 
-![](/Global_Electronics_Retailer/adding_total_revenue_measure_local.png)
+![](/Global_Electronics_Retailer/screenshots/adding_total_revenue_measure_local.png)
 
 4. Calculate Average Order Value (AOV), based on Total Revenue (USD) and Total Orders. How does AOV compare across product categories? Are there differences based on customer age?
 
 To calculate Average Order Value (AOV), based on Total Revenue (USD) and Total Orders we created new measure:
 
-![](/Global_Electronics_Retailer/AOV.png)
+![](/Global_Electronics_Retailer/screenshots/AOV.png)
 
 How does AOV compare across product categories?
 
-![](/Global_Electronics_Retailer/aov_and_categories.png)
+![](/Global_Electronics_Retailer/screenshots/aov_and_categories.png)
 
 So we can see that home appliances has the highest AOV. 
 
 Are there differences based on customer age?
 
-![](/Global_Electronics_Retailer/age_and_aov.png)
+![](/Global_Electronics_Retailer/screenshots/age_and_aov.png)
 
 There are no significant differences based on customer ages. 
 
@@ -70,10 +70,10 @@ There are no significant differences based on customer ages.
 
 Let's calculate Average Delivery Time, in days. To do that we add new measure:
 
-![](/Global_Electronics_Retailer/average_delivery_date.png)
+![](/Global_Electronics_Retailer/screenshots/average_delivery_date.png)
 
 Which types of products tend to be delivered fastest or slowest?
 
-![](/Global_Electronics_Retailer/category_delivery.png)
+![](/Global_Electronics_Retailer/screenshots/category_delivery.png)
 
 From this table we can see that on average all product categories delivery time is pretty the same around 4-5 days.  
