@@ -4,7 +4,7 @@ My first objective is to ingest the data from raw CSV files, conduct some data p
 
 1. Connect to the Sales CSV file and profile the data. How many orders were recorded? Over what time period? Is there anything interesting about delivery dates? Add a TransactionKey field to uniquely identify each row.
 
-I imported Sales CSV through Power Query:
+I loaded Sales CSV through Power Query:
 
 ![](/Global_Electronics_Retailer/screenshots/connecting_to_sales.png)
 
@@ -48,16 +48,66 @@ The most popular subcategory is computer accessories, followed by lamps.
 There are no empty values in the entire table.
 
 
-3. Connect to the Stores CSV file and profile the data. How many stores does Maven Electronics operate? Do you notice any that aren’t like the others?
+3. Connect to the Stores CSV file and profile the data. How many stores does company operate? Do you notice any that aren’t like the others?
 
+Firtst let's load the csv to power query editor:
 
+![](/Global_Electronics_Retailer/screenshots/loading_stores_table.png)
+
+And answer question "How many stores does company operate?":
+
+![](/Global_Electronics_Retailer/screenshots/distinct_stores.png)
+
+So company operates 67 stores.
+
+If we look close to Squere meters column 1% is empty values. When filtering, we can see that it is online store:
+
+![](/Global_Electronics_Retailer/screenshots/null_value_square_m.png)
+
+When we analyzed Sales table we noticed that the only store that has valued delivery dates is store 0. Which means that were online orders. 
 
 4. Connect to the Exchange_Rates CSV file and profile the data. What information does this table contain, and how could it be used?
 
+Let's load Exchange_Rates CSV.
+
+![](/Global_Electronics_Retailer/screenshots/loading_exchange_rates.png)
+
+So what we can see from this table is that all the prices in Sales table are in USD dollars. This table helps to convert the currency, based on where the transaction takes place. 
+
 5. Connect to the Customers CSV file and profile the data. How many customers has the company served? Where are customers primarily located?
 
-6. Remove the Zip Code column, and transform the City field to capitalize the first letter of each word.
+![](/Global_Electronics_Retailer/screenshots/loading_customers_table.png)
 
-7. Add a new column to calculate Customer Age in years, then add a conditional column to calculate Age Range, where >60 = "Senior", >30 = "Adult" and >18 = "Young Adult".
+How many customers has the company served?
 
-8. Create a Calendar table that contains a list of contiguous dates (no gaps) and reflects the same date range as the Sales table, then add new columns for Day Name, Start of Week/Month/Quarter, and Year.
+![](/Global_Electronics_Retailer/screenshots/number_of_customers.png)
+
+It seems that the company serves 15266 customers.
+
+Where are customers primarily located?
+
+![](/Global_Electronics_Retailer/screenshots/customers_location.png)
+
+As we can see 44% of the customers located in USA. And only 4% in Italy. 
+
+Based on Birthday column I added Age column, to see customers' age.
+
+![](/Global_Electronics_Retailer/screenshots/adding_age_column.png)
+
+Then we need to add conditional column in order to put customers in different age buckets:
+
+![](/Global_Electronics_Retailer/screenshots/adding_conditional_column.png)
+
+So now we have new column Age Range based on customers' age column:
+
+![](/Global_Electronics_Retailer/screenshots/age_range.png)
+
+6. Create a Calendar table that contains a list of contiguous dates (no gaps) and reflects the same date range as the Sales table, then add new columns for Day Name, Start of Week/Month/Quarter, and Year.
+
+We duplicated Sales table and removed all the columns except Order Date column. Then renamed it to Date column and removed duplicates from it:
+
+![](/Global_Electronics_Retailer/screenshots/calendar_table.png)
+
+Then I added Day (name of the day), start of week, start of month, start of quarter and year columns, which will be helpful to gain some analysis in future tasks.
+
+![](/Global_Electronics_Retailer/screenshots/adding_additional_date_formats.png)
