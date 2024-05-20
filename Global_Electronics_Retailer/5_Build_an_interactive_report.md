@@ -4,8 +4,17 @@ My fourth and final objective is to design an interactive report that the compan
 
 ![](/Global_Electronics_Retailer/screenshots/report.png)
 
+So this is how our final dashboard looks like. 
+
+1. We showed orders, revenue, AOV and average delivery time as KPI cards.
+2. We showed revenue by month as a line chart, and by Product Category as a bar chart.
+3. Then added slicers for StoreKey and Year, connected to all cards and visuals.
+4. Adjusted formatting and polish for clarity and readability.
+
 So what trends and patterns can we see from this report? 
-So as we start exploring this data kind of starting high level, we can really see a few patterns and trends emerge. And like we saw early on revenue has increased pretty steadily up until about 2020. Then it took a huge hit in April, 2020, and never really recovered from there. 
+
+So as we start exploring this data kind of starting high level, we can really see a few patterns and trends emerge. And like we saw early on revenue has increased pretty steadily up until about 2020. Then it took a huge hit in April, 2020, and never really recovered from there.
+ 
 If we filtered on online stores, we can see that trend:
 
 ![](/Global_Electronics_Retailer/screenshots/online_store_trends.png)
