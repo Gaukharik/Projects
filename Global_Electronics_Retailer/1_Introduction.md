@@ -11,6 +11,16 @@ Revenue has been on a downward trend since 2020, and management needs my help co
 ## Goal
 To use the CSV files provided to build a data model and interactive report that the management team can use to explore performance.
 
+During the analysis I'm going to answer the following questions:
+
+1. What types of products does the company sell, and where are customers located?
+
+2. Are there any seasonal patterns or trends for order volume or revenue?
+
+3. How long is the average delivery time in days? Has that changed over time?
+
+4. Is there a difference in average order value (AOV) for online vs. in-store sales?
+
 ## Objectives
 1. Profile and prepare the data
 2. Build a relational data model

@@ -10,6 +10,14 @@ To better understand purchase behavior and streamline operations, company manage
 ## Goal
 To transform the data into a dynamic dashboard that franchise owners can use to identify patterns, trends and opportunities for the business.
 
+During the analysis I'm going to answer the following questions:
+
+1. How has company sales trended over time?
+
+2. Which days of the week tend to be busiest, and why do you think that's the case?
+
+3. Which products are sold most and least often? Which drive the most revenue for the business?
+
 ## Objectives
 1. Profile and prepare the raw data for analysis
 2. Explore the data with Excel Pivot Tables
