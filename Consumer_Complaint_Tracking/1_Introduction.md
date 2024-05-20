@@ -5,10 +5,10 @@ I just have been hired as a Business Intelligence (BI) Developer for the Complia
 For this analysis, I will use MS Excel, PivotTables and Pivot Charts. 
 
 ## Scenario
-Your team receives consumer complaints from the Consumer Financial Protection Bureau (CFPB) and is expected to handle them appropriately and swiftly.
+My team receives consumer complaints from the Consumer Financial Protection Bureau (CFPB) and is expected to handle them appropriately and swiftly.
 
 ## Goal
-You have been asked to create a report to track open and closed complaints for a specific period and visualize the weekly trend to avoid overdue complaints. 
+I have been asked to create a report to track open and closed complaints for a specific period and visualize the weekly trend to avoid overdue complaints. 
 
 ## Objectives
 1. Create calculated columns 
