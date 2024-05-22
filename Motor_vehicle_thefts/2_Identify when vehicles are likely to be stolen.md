@@ -70,7 +70,7 @@ So that's what the next step is to replace the numeric day of week values with t
 
 I can use CASE statement for this task:
 
-![](/Motor_vehicle_thefts/screenshots/named_days.png) 
+![](/Motor_vehicle_thefts/screenshots/named_days.png)
 
 So now here I have each day of the week by number, each day of the week by name and then the number of vehicles that were stolen on each day of the week. 
 
@@ -80,15 +80,12 @@ My next task is to create a bar chart. I can't do that in SQL, so I'm gonna expo
 
 So this how our results from SQL looks like in Excel: 
 
-![](/Motor_vehicle_thefts/screenshots/obj1_results.png) 
+![](/Motor_vehicle_thefts/screenshots/obj1_results.png)
 
 So let's add our bar chart:
 
-![](/Motor_vehicle_thefts/screenshots/bar_chart.png) 
+![](/Motor_vehicle_thefts/screenshots/bar_chart.png)
 
 And for my surprise Mondays and then Tuesdays are the days with the most vehicle thefts in New Zeland. Then as the week goes on, it starts to drop through Wednesday, and then through Thursday we get a little bit a bump on Fridays. And then once again, it drops on Saturday and Sunday during the weekend. And then again we have that spike on a Monday. 
 
 So that's a very interesting trend that I'm sure consumers will be very interested to know about. 
-
-
-
