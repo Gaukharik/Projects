@@ -1,4 +1,4 @@
-## Prepare the data for analysis
+## Explore_the_data_with_Pivot_tables
 
 My  second objective is to slice and dice the coffee shop data with Excel PivotTables, and create views to analyze time series and product-level trends.
 
