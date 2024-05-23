@@ -14,10 +14,10 @@ Analyzed baby names trend (2M+ rows) for popular baby names website that collect
 Tools: MS SQL, Windows functions, CTEs
 
 1. [Introduction](Baby_Name_Trend_Analysis/1_Introduction.md)
-2. [Track changes in name popularity](Baby_Name_Trend_Analysis/2_Track changes in name popularity.md)
-3. [Compare popularity across decades](Baby_Name_Trend_Analysis/3_Compare popularity across decades.md)
-4. [Compare popularity across regions](Baby_Name_Trend_Analysis/4_Compare popularity across regions.md)
-5. [Explore unique names in the dataset](Baby_Name_Trend_Analysis/5_Explore unique names in the data.md)
+2. [Track changes in name popularity](https://github.com/Gaukharik/portfolio/blob/main/Baby_Name_Trend_Analysis/2_Track%20changes%20in%20name%20popularity.md)
+3. [Compare popularity across decades](https://github.com/Gaukharik/portfolio/blob/main/Baby_Name_Trend_Analysis/3_Compare%20popularity%20across%20decades.md)
+4. [Compare popularity across regions](https://github.com/Gaukharik/portfolio/blob/main/Baby_Name_Trend_Analysis/4_Compare%20popularity%20across%20regions.md)
+5. [Explore unique names in the dataset](https://github.com/Gaukharik/portfolio/blob/main/Baby_Name_Trend_Analysis/5_Explore%20unique%20names%20in%20the%20data.md)
 
 ## [Project 2](https://github.com/Gaukharik/portfolio/blob/main/Coffee_Shop_Sales/1_Intoduction.md): Coffee Shop Sales Analysis
 Analyzed how has company sales trended over time, which days of the weektend to be the busiest, which products are sold most and least often and which products drive the most revenue for the business, and derived actionable insights to guide franchise owners to identify patterns, trends and opportunities for the business.
